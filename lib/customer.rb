@@ -1,4 +1,3 @@
-
 class Customer
   attr_accessor :name, :age
  
@@ -13,6 +12,8 @@ class Customer
   def self.all
     @@all
   end
+ 
+ # OBJECT RELATIONSHIPS - #new_meal, #meals, #waiters
  
  # Returns an Array of Meal instances associated with this customer
   def meals
